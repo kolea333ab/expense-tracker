@@ -44,7 +44,7 @@ public class Transaction {
         return amount;
     }
 
-    // Дополнительно добавить геттеры для остальных полей
+
     public Long getId() {
         return id;
     }

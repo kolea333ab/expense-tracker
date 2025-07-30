@@ -44,6 +44,6 @@ class TransactionRepositoryTest {
 
         Transaction saved = transactionRepository.save(tx);
 
-        assertNotNull(saved.getId()); // Проверяем, что ID был сгенерирован (сохранилось)
+        assertNotNull(saved.getId()); 
     }
 }
